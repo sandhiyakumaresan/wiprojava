@@ -1,0 +1,16 @@
+import java.util.*;
+public class main{
+    public static void main(String args[]){
+        Scanner sc = new Scanner (System.in);
+        int n1 =sc.nextInt();
+        int n2 =sc.nextInt();
+        int n1last=n1%10;
+        int n2last=n2%10;
+        if(n1last==n2last){
+            System.out.print("true");
+        }
+        else{
+            System.out.print("false");
+        }
+    }
+}
