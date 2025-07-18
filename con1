@@ -1,0 +1,10 @@
+import java.util.*;
+public class conca{
+    public static void main(String args[]){
+        Scanner sc =new Scanner(System.in);
+        String str1=sc.next();
+        String str2=sc.next();
+        String str3="Technologies";
+        System.out.print(str1+" "+ str3 +" "+ str2);
+    }
+}
